@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    // Lint notes for consistent Markdown
+    "DavidAnson.vscode-markdownlint",
+    // Preview notes the way GitHub shows them (styles, emoji, checkboxes, footnotes)
+    "bierner.github-markdown-preview",
+    // Show > [!NOTE] / [!TIP] / [!WARNING] alerts as boxes in the preview
+    "saeris.markdown-github-alerts",
+    // Catch mistakes in shell scripts
+    "timonwong.shellcheck"
+  ]
+}

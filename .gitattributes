@@ -1,0 +1,10 @@
+# Always store text with Linux line endings
+* text=auto eol=lf
+*.sh text eol=lf
+
+# Binary files — never try to diff or change line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
