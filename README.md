@@ -5,9 +5,9 @@
 A personal reference for Linux system administration: **notes**, **hands-on labs** and **reusable scripts**. Everything is organised **by topic, not by source**, so what I learn from courses, docs, books or real work all ends up in the same place.
 
 > [!NOTE]
-> Personal study notes. Course content and materials belong to their authors and are not stored in this repo.
+> Personal study notes, written in my own words. Third-party materials belong to their authors and are not stored in this repo.
 
-[Topics](#topics) · [Lab environment](#lab-environment) · [Find things](#how-to-find-things) · [VS Code setup](#writing-notes-in-vs-code) · [License](#license)
+[Topics](#topics) · [Lab environment](#lab-environment) · [Find things](#how-to-find-things) · [Templates](#templates) · [VS Code setup](#writing-notes-in-vs-code) · [License](#license)
 
 ## Repository layout
 
@@ -29,7 +29,9 @@ linux-handbook/
 │   └── 01-almalinux-vm-apple-silicon/
 │       ├── README.md
 │       └── attachments/
-└── scripts/                  ← reusable shell scripts
+├── scripts/                  ← reusable shell scripts
+└── templates/                ← starting points for new files
+    └── note.md
 ```
 
 ## Topics
@@ -64,7 +66,7 @@ Where I practise and test the commands in these notes.
 Browse by topic, skim a note, or search across everything.
 
 - **Browse:** open a topic folder → its `README.md` lists every note.
-- **Skim:** every note uses the same headings — *Key ideas, Commands, Examples, Gotchas, Related, References* — so you can jump straight to the part you need.
+- **Skim:** every note uses the same headings — *Key ideas, Commands, Examples, Related, References* — so you can jump straight to the part you need. Notes about specific commands explain each one in *Key ideas* and skip the *Commands* section.
 - **Search in VS Code:** <kbd>Cmd + Shift + F</kbd> → searches every note at once.
 - **Search on GitHub:** type `repo:yx-elite/linux-handbook chmod` in the top search bar.
 - **Search from the terminal:** run this in the repo folder.
@@ -72,6 +74,20 @@ Browse by topic, skim a note, or search across everything.
 ```bash
 grep -rn --include='*.md' 'chmod' notes/ labs/
 ```
+
+## Templates
+
+Start every new note from a template, so it already has the standard headings.
+
+- [`templates/note.md`](templates/note.md) → a topic note: *Key ideas, Commands, Examples, Related, References*.
+
+To use it, copy it into the topic folder, rename it and replace the placeholder text:
+
+```bash
+cp templates/note.md notes/05-permissions/umask.md
+```
+
+Then add the note to the topic's `README.md`, and remove it from *Planned* if it was listed there.
 
 ## Writing notes in VS Code
 
@@ -83,4 +99,6 @@ The repo includes VS Code settings (`.vscode/settings.json`) and recommended ext
 
 ## License
 
-[MIT License](LICENSE) — free to reuse the notes and scripts with credit. Course materials are not included and belong to their authors.
+[MIT License](LICENSE) — free to reuse the notes and scripts with credit. Third-party materials are not included and belong to their authors.
+
+All diagrams are drawn in [Miro](https://miro.com).
