@@ -11,9 +11,10 @@
   // Warn about broken links inside notes
   "markdown.validate.enabled": true,
 
-  // markdownlint: allow long lines, and the HTML used in notes (collapsible sections, key caps, spacing, sized images)
+  // markdownlint: allow long lines, back-to-back GitHub alerts, and the HTML used in notes (collapsible sections, key caps, spacing, sized images)
   "markdownlint.config": {
     "MD013": false,
+    "MD028": false,
     "MD033": {
       "allowed_elements": ["details", "summary", "strong", "kbd", "br", "img"]
     }
