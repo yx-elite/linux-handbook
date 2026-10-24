@@ -66,7 +66,7 @@ Where I practise and test the commands in these notes.
 Browse by topic, skim a note, or search across everything.
 
 - **Browse:** open a topic folder → its `README.md` lists every note.
-- **Skim:** every note uses the same headings — *Key ideas, Commands, Examples, Related, References* — so you can jump straight to the part you need. Notes about specific commands explain each one in *Key ideas* and skip the *Commands* section.
+- **Skim:** every note uses the same headings — *Key ideas, Examples, Related, References* — so you can jump straight to the part you need. Each topic's `README.md` also has a *Quick reference* listing every command in that topic.
 - **Search in VS Code:** <kbd>Cmd + Shift + F</kbd> → searches every note at once.
 - **Search on GitHub:** type `repo:yx-elite/linux-handbook chmod` in the top search bar.
 - **Search from the terminal:** run this in the repo folder.
@@ -79,7 +79,7 @@ grep -rn --include='*.md' 'chmod' notes/ labs/
 
 Start every new note from a template, so it already has the standard headings.
 
-- [`templates/note.md`](templates/note.md) → a topic note: *Key ideas, Commands, Examples, Related, References*.
+- [`templates/note.md`](templates/note.md) → a topic note: *Key ideas, Examples, Related, References*.
 
 To use it, copy it into the topic folder, rename it and replace the placeholder text:
 

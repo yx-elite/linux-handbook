@@ -11,31 +11,24 @@ Open with a line saying what this section covers.
 - `thing`: what it means.
 - `another-thing`: what it means.
 
-**Short bold summary:** put a warning right next to the fact it is about.
+> [!NOTE]
+> Optional: one short alert right next to the fact it is about.
 
 <!-- Diagram (optional): ![Alt text describing the diagram](attachments/note-name-what-it-shows.svg) -->
 
-## Commands
-
-<!-- Only when commands are not the subject of this note. Otherwise delete this section and explain each command once in Key ideas. -->
-
-The commands used in this note, at a glance.
-
-- `command`: what it does.
-
 ## Examples
 
-Open with a line saying what these examples show.
+Open with a line saying what these examples show and where they were run.
 
-To do something:
+### Do something
 
 ```bash
 command --option argument
 ```
 
-```text
-output
-```
+![command output on AlmaLinux 10.2](attachments/note-name-what-it-shows.png)
+
+What the useful parts of the output mean.
 
 ## Related
 
