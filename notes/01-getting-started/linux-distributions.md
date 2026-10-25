@@ -4,7 +4,7 @@ A Linux **distribution** (distro, sometimes called a *flavor*) is the Linux kern
 
 ## Key ideas
 
-Linux itself is only the **kernel**, the core that talks to the hardware. Everything else you use, such as the shell, the commands, the package manager and the desktop, is added by the distribution. When people say "the Linux OS", they really mean a distribution. Each distribution team chooses which software to include and how to set it up.
+Linux itself is only the **kernel**, the core that talks to the hardware. Everything else, such as the shell, the commands, the package manager and the desktop, is added by the distribution. When people say "the Linux OS", they really mean a distribution. Each distribution team chooses which software to include and how to set it up.
 
 All distributions share the same basics:
 
@@ -20,7 +20,7 @@ The real differences are smaller than they look:
 
 ### The main families
 
-Distributions come in families. Learn one member of each large family and you can work on almost any server.
+Distributions come in families. Knowing one member of each large family is enough to work on almost any server.
 
 | Family | Common distributions | Packages | Package tools |
 | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ Distributions come in families. Learn one member of each large family and you ca
 | SUSE | SUSE Linux Enterprise (SLES), openSUSE | `.rpm` | `zypper` |
 | Arch | Arch Linux, Manjaro | `.pkg.tar.zst` | `pacman` |
 
-Where you are likely to meet each family:
+Where each family is most likely to turn up:
 
 - **Red Hat:** companies, data centres and AWS.
 - **Debian:** cloud servers, desktops and startups.
@@ -69,13 +69,13 @@ The Debian family is built up the same way: Ubuntu is built from Debian, and Lin
 
 ### Paid and free
 
-- **Commercial** (RHEL, SLES, Ubuntu Pro): you pay for support, certified software and long-term updates.
+- **Commercial** (RHEL, SLES, Ubuntu Pro): paid support, certified software and long-term updates.
 - **Community** (AlmaLinux, Rocky Linux, Debian, Ubuntu, Fedora): free, and supported by the community.
 
 ### Which one to pick
 
-- **Use what your current or target job uses.** This beats any other rule. Banks and large enterprises tend to use the RHEL family; startups and cloud-native teams tend to use Ubuntu.
-- **For server and cloud work, learn one RHEL-type distribution and Ubuntu.** AlmaLinux and Ubuntu together cover most servers you will see.
+- **Use what the current or target job uses.** This beats any other rule. Banks and large enterprises tend to use the RHEL family; startups and cloud-native teams tend to use Ubuntu.
+- **For server and cloud work, learn one RHEL-type distribution and Ubuntu.** AlmaLinux and Ubuntu together cover most servers in use.
 - **On Ubuntu servers, use an LTS release** such as 24.04. LTS releases get about 5 years of updates; other releases get only about 9 months.
 - **For a desktop,** Ubuntu, Linux Mint and Fedora are easy places to start.
 
