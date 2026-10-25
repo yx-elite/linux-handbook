@@ -87,7 +87,7 @@ To use it, copy it into the topic folder, rename it and replace the placeholder 
 cp templates/note.md notes/05-permissions/umask.md
 ```
 
-Then add the note to the topic's `README.md`, and remove it from *Planned* if it was listed there.
+Then add the note to the topic's `README.md`.
 
 ## Writing notes in VS Code
 
